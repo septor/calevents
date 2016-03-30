@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Calevents" lan="" version="1.0" date="2016-03-30" compatibility="2.0" installRequired="true" >
+	<author name="Patrick Weaver" url="http://trickmod.com/" />
+	<summary lan="">A Calendar and Event Tracker</summary>
+	<description lan="">A Calendar and Event Tracker powered by Google Calendar</description>
+	<keywords>
+		<word>calendar</word>
+		<word>events</word>
+		<word>google</word>
+	</keywords>
+	<category>content</category>
+	<copyright>2016</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="" iconSmall="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='nav_page_link'></pref>
+		<pref name='client_id'></pref>
+		<pref name='client_secret'></pref>
+		<pref name='redirect_uri'></pref>
+	</pluginPrefs>
+</e107Plugin>
