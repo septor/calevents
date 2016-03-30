@@ -129,23 +129,51 @@ class calevents_ui extends e_admin_ui
 		'nav_link_page' => array(
 			'title' => 'Navigation Link Page',
 			'tab' => 0,
-			'type' => 'dropdown',
+			'type' => 'text',
 			'data' => 'str',
 			'help' => 'Where you want the navigation link to point to.',
+		),
+		'calendar_name' => array(
+			'title' => 'Navigation Link Page',
+			'tab' => 0,
+			'type' => 'text',
+			'data' => 'str',
+			'help' => '',
+		),
+		'allow_single_events' => array(
+			'title' => 'Navigation Link Page',
+			'tab' => 0,
+			'type' => 'boolean',
+			'data' => 'str',
+			'help' => '',
+		),
+		'event_orderby' => array(
+			'title' => 'Navigation Link Page',
+			'tab' => 0,
+			'type' => 'text',
+			'data' => 'str',
+			'help' => '',
+		),
+		'max_results' => array(
+			'title' => 'Navigation Link Page',
+			'tab' => 0,
+			'type' => 'number',
+			'data' => 'int',
+			'help' => '',
 		),
 		'client_id' => array(
 			'title' => 'Client ID',
 			'tab' => 1,
 			'type' =>'text',
 			'data' => 'str',
-			'help' => 'Help Text goes here'
+			'help' => ''
 		),
 		'client_secret'	=> array(
 			'title' => 'Client Secret',
 			'tab' => 1,
 			'type' =>'text',
 			'data' => 'str',
-			'help' => 'Help Text goes here'
+			'help' => ''
 		),
 		'redirect_uri' => array(
 			'title' => 'Redirect URI',
@@ -153,6 +181,13 @@ class calevents_ui extends e_admin_ui
 			'type' =>'text',
 			'data' => 'str',
 			'help' => 'Help Text goes here'
+		),
+		'developer_api' => array(
+			'title' => 'API Key',
+			'tab' => 1,
+			'type' => 'text',
+			'data' => 'str',
+			'help' => '',
 		),
 	);
 
