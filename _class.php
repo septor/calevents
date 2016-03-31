@@ -16,8 +16,8 @@ class Calevents
 		$this->clientSecret = $this->pref['client_secret'];
 		$this->redirectUri = $this->pref['redirect_uri'];
 
-		$this->client->setApplicationName($this->pref['calendar_name'];
-		$this->client->setDeveloperKey($this->pref['develper_api'];
+		$this->client->setApplicationName($this->pref['calendar_name']);
+		$this->client->setDeveloperKey($this->pref['develper_api']);
 		$this->calendar = new Google_Service_Calendar($this->client);
 
 		$this->params = array(
@@ -50,7 +50,7 @@ class Calevents
 
 			$output[] = array(
 				'link' => $event->htmllink,
-				'timezone_link' => $event->htmllink.'&ctz='$calTimeZone,
+				'timezone_link' => $event->htmllink.'&ctz='.$calTimeZone,
 				'month' => $eventDate->format('M'),
 				'day' => $eventDate->format('j'),
 				'summary' => $event->summary
